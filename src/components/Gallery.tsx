@@ -39,17 +39,17 @@ const blueprintImages: GalleryItem[] = Array.from({ length: 29 }, (_, i) => ({
   label: `Blueprint ${i + 1}`,
 }));
 
-const exteriorImages: GalleryItem[] = Array.from({ length: 16 }, (_, i) => ({
+const exteriorImages: GalleryItem[] = Array.from({ length: 19 }, (_, i) => ({
   src: getAssetUrl("Exterior", `ew${i + 1}.jpg`),
   label: `Exterior ${i + 1}`,
 }));
 
-const interiorImages: GalleryItem[] = Array.from({ length: 26 }, (_, i) => ({
+const interiorImages: GalleryItem[] = Array.from({ length: 12 }, (_, i) => ({
   src: getAssetUrl("Interior", `iw${i + 1}.jpg`),
   label: `Interior ${i + 1}`,
 }));
 
-const aluminiumImages: GalleryItem[] = Array.from({ length: 7 }, (_, i) => ({
+const aluminiumImages: GalleryItem[] = Array.from({ length: 30 }, (_, i) => ({
   src: getAssetUrl("Aluminium", `al${i + 1}.jpg`),
   label: `Aluminium ${i + 1}`,
 }));
