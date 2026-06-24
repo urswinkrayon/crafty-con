@@ -4,6 +4,7 @@ import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Gallery from "@/components/Gallery";
+import ReviewsSection from "@/components/ReviewsSection"; // 1. Imported the new section
 import CTASection from "@/components/CTASection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -18,6 +19,7 @@ const Index = () => {
       <ServicesSection />
       <WhyChooseUs />
       <Gallery />
+      <ReviewsSection /> {/* 2. Placed it here for perfect landing page flow */}
       <CTASection />
       <ContactSection />
       <Footer />
